@@ -5,9 +5,32 @@
   box-sizing: border-box;  
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background: #000000;
   color: #fff;
-  --nav-height : 80px;
+  --nav-height : 100px;
+}
 
+.container {
+	padding: 1px 8%;
+}
+
+.btn{
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #FB4F93;
+  padding: 14px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+}
+
+.btn:hover{
+  background:#FB4F93;
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 export class Header extends Component {
@@ -17,55 +18,31 @@ export class Header extends Component {
 			lastScrollY = window.scrollY;
 		});
 	}
-  
+
 	render() {
 		return (
-			<div>
-				<div className="container">
-					<nav className="nav">
-						<img
-							src="images/Armourr_LogoFull.png"
-							alt="logo"
-							className="logo"
-						/>
-						<ul>
-							<li>
-								<a href="/">Home</a>
-							</li>
-							<li>
-								<a href="/">About</a>
-							</li>
-							<li>
-								<a href="/">Details</a>
-							</li>
-							<li>
-								<a href="/">Contact</a>
-							</li>
-						</ul>
-					</nav>
-					<div className="h1_text">
-						<p>ARMOURR INDIA</p>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-						<h1>A Sports Brand to Rely On!</h1>
-					</div>
-				</div>
+			<div className="container">
+				<nav className="nav">
+					<img
+						src="images/Armourr_LogoFull_for_footer.png"
+						alt="logo"
+						className="logo"
+					/>
+					<ul>
+						<li>
+							<Link to="/">Home</Link>
+						</li>
+						<li>
+							<Link to="/about">About</Link>
+						</li>
+						<li>
+							<Link to="/details">Details</Link>
+						</li>
+						<li>
+							<Link to="/contact">Contact</Link>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		);
 	}
