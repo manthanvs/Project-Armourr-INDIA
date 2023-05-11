@@ -1,27 +1,28 @@
 .nav {
 	display: flex;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0);
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
-    height: var(--nav-height);
-    right: 15px;
+    height: 100px;
+    right: 0px;
     position: fixed;
     align-content: center;
     flex-direction: row;
+	z-index: 2;
     /* transition for hidding the navbar */
     transition: transform 0.2s;
 }
 
 /* hidding navbar when scroll down */
 .nav.nav.nav--hidden{
-    transform: translateY(calc(-1 * var(--nav-height)));
+    transform: translateY(-100px);
     box-shadow: none;
 }
 
 .logo {
-	width: 25%;
+	width: 30%;
 }
 
 
@@ -65,4 +66,13 @@ nav ul li a:hover {
 	--_p: 100%;
 	--_s: 0.1s;
 	color: white;
+}
+
+
+.navbar-expand-md .offcanvas{
+	position: absolute;
+}
+
+.offcanvas.offcanvas-end{
+	top: 15px;
 }

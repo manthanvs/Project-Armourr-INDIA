@@ -1,20 +1,65 @@
 import React from "react";
+import Carousel from 'react-bootstrap/Carousel';
+
 import "./home.css";
 
 function home() {
 	return (
 		<div className="banner">
 			<div className="card text-bg-dark h1_text">
-				<div className="card-img"></div>
+				<div className="card-img">
 				<img
 					src="https://picsum.photos/seed/picsum/432/285/?blur=2"
 					alt="#"
 				/>
+				</div>
 				<div className="card-img-overlay">
 					<h1 className="card-title">ARMOURR INDIA</h1>
 					<h5 className="card-text">A Sports Brand to Rely On!</h5>
 				</div>
 			</div>
+
+{/* Start Banner Hero */}
+
+	{/* Used Carousel https://react-bootstrap.github.io/components/carousel/#individual-item-intervals */}
+    <Carousel>
+	<Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src="https://picsum.photos/1024/500"
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src="https://picsum.photos/1024/500"
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img
+          className="d-block w-100"
+          src="https://picsum.photos/1024/500"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>  
+{/* End Banner Hero */}
 
 			{/*  Explore */}
 			<section className="section" id="explore">
