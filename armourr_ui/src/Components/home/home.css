@@ -1,12 +1,11 @@
 
 .h1_text {
-	margin-top: calc(var(--nav-height));
-	border: none;
 	position: relative;
+	border: none;
 }
 
 .card-img{
-	height: 575px;
+	height: 650px;
 }
 
 .card-img:before {
@@ -178,7 +177,23 @@ section {
 
 /* 
 ---------------------------------------------
+---------------------------------------------
+Carousel
+---------------------------------------------
+---------------------------------------------
+*/
+
+.custom-bg{
+	background-color: #0e0e0e;
+	
+}
+
+
+/* 
+---------------------------------------------
+---------------------------------------------
 Social
+--------------------------------------------- 
 --------------------------------------------- 
 */
 
@@ -186,17 +201,16 @@ Social
     margin-top: 0px;
     padding: 30px 10px 0px 10px;
     background-color: #0e0e0e;
+	border: none;
 }
 
-#social .col-2 {
+#social .col-4 {
 	padding-left: 0;
 	padding-right: 0;
 }
 
 #social .images {
-	margin-top: 60px;
-	padding-left: 15px;
-	padding-right: 15px;
+    margin: 60px 0;
 }
 
 #social .thumb {

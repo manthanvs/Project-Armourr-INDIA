@@ -10,16 +10,14 @@ export class Header extends Component {
 	componentDidMount() {
 		// scroll effect i.e when scroll down navbar get hidden and when scroll up navbar appears again
 		const nav = document.querySelector(".nav");
-		let lastScrollY = window.scrollY;
 
 		window.addEventListener("scroll", () => {
-			if (lastScrollY < window.scrollY) {
-				nav.classList.add("nav--hidden");
-			} else {
+			if ( window.scrollY === 0) {
 				nav.classList.remove("nav--hidden");
+      } else {
+				nav.classList.add("nav--hidden");
 			}
 
-			lastScrollY = window.scrollY;
 		});
 	}
 

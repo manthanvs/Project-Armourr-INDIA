@@ -1,17 +1,17 @@
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel';
-
+import Carousel from "react-bootstrap/Carousel";
 import "./home.css";
+import { Container } from "react-bootstrap";
 
 function home() {
 	return (
 		<div className="banner">
 			<div className="card text-bg-dark h1_text">
 				<div className="card-img">
-				<img
-					src="https://picsum.photos/seed/picsum/432/285/?blur=2"
-					alt="#"
-				/>
+					<img
+						src="https://picsum.photos/seed/picsum/432/285/?blur=2"
+						alt="#"
+					/>
 				</div>
 				<div className="card-img-overlay">
 					<h1 className="card-title">ARMOURR INDIA</h1>
@@ -19,49 +19,7 @@ function home() {
 				</div>
 			</div>
 
-{/* Start Banner Hero */}
-
-	{/* Used Carousel https://react-bootstrap.github.io/components/carousel/#individual-item-intervals */}
-    <Carousel>
-	<Carousel.Item interval={2000}>
-        <img
-          className="d-block w-100"
-          src="https://picsum.photos/1024/500"
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={2000}>
-        <img
-          className="d-block w-100"
-          src="https://picsum.photos/1024/500"
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={2000}>
-        <img
-          className="d-block w-100"
-          src="https://picsum.photos/1024/500"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>  
-{/* End Banner Hero */}
-
-			{/*  Explore */}
+			{/*  Explore Area Starts*/}
 			<section className="section" id="explore">
 				<div className="container">
 					<div className="row">
@@ -143,7 +101,59 @@ function home() {
 					</div>
 				</div>
 			</section>
-			{/* ***** Social Area Ends ***** */}
+			{/* ***** Explore Area Ends ***** */}
+
+			{/* Banner Hero Area Starts*/}
+
+			{/* Used Carousel https://react-bootstrap.github.io/components/carousel/#individual-item-intervals */}
+			<Container my={5}>
+			<Carousel>
+				<Carousel.Item interval={2000}>
+					<img
+						className="d-flex justify-content-center w-100"
+						src="https://picsum.photos/1024/500"
+						alt="Second slide"
+					/>
+					<Carousel.Caption>
+						<h3>First slide label</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit.
+						</p>
+					</Carousel.Caption>
+				</Carousel.Item>
+				<Carousel.Item interval={2000}>
+					<img
+						className="d-block w-100"
+						src="https://picsum.photos/1024/500"
+						alt="Second slide"
+					/>
+					<Carousel.Caption>
+						<h3>Second slide label</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit.
+						</p>
+					</Carousel.Caption>
+				</Carousel.Item>
+				<Carousel.Item interval={2000}>
+					<img
+						className="d-block w-100"
+						src="https://picsum.photos/1024/500"
+						alt="Third slide"
+					/>
+					<Carousel.Caption>
+						<h3>Third slide label</h3>
+						<p>
+							Praesent commodo cursus magna, vel scelerisque nisl
+							consectetur.
+						</p>
+					</Carousel.Caption>
+				</Carousel.Item>
+			</Carousel>
+			</Container>
+
+			{/* Banner Hero Area End*/}
 
 			{/* ***** Social Area Starts ***** */}
 			<section className="section" id="social">
@@ -162,7 +172,7 @@ function home() {
 				</div>
 				<div className="container">
 					<div className="row images">
-						<div className="col-2">
+						<div className="col-4">
 							<div className="thumb">
 								<div className="icon">
 									<a href="http://instagram.com">
@@ -176,7 +186,7 @@ function home() {
 								/>
 							</div>
 						</div>
-						<div className="col-2">
+						<div className="col-4">
 							<div className="thumb">
 								<div className="icon">
 									<a href="http://instagram.com">
@@ -190,7 +200,7 @@ function home() {
 								/>
 							</div>
 						</div>
-						<div className="col-2">
+						<div className="col-4">
 							<div className="thumb">
 								<div className="icon">
 									<a href="http://instagram.com">
@@ -204,7 +214,7 @@ function home() {
 								/>
 							</div>
 						</div>
-						<div className="col-2">
+						<div className="col-4">
 							<div className="thumb">
 								<div className="icon">
 									<a href="http://instagram.com">
@@ -218,7 +228,7 @@ function home() {
 								/>
 							</div>
 						</div>
-						<div className="col-2">
+						<div className="col-4">
 							<div className="thumb">
 								<div className="icon">
 									<a href="http://instagram.com">
@@ -232,7 +242,7 @@ function home() {
 								/>
 							</div>
 						</div>
-						<div className="col-2">
+						<div className="col-4">
 							<div className="thumb">
 								<div className="icon">
 									<a href="http://instagram.com">

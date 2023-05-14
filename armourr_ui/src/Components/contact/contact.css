@@ -1,8 +1,9 @@
 .contact{
-    margin-top: calc(var(--nav-height));
     background-image: url("../../../public/images/background_tree.jpg");
     background-size: cover;
     background-position: center top;
+    padding: 120px 0;
+    color: #ababab;
 }
 
 /* ---------Contact Left------------ */
