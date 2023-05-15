@@ -111,7 +111,7 @@ function home() {
 				<Carousel.Item interval={2000}>
 					<img
 						className="d-flex justify-content-center w-100"
-						src="https://picsum.photos/1024/500"
+						src="https://picsum.photos/1024/500?random=1"
 						alt="Second slide"
 					/>
 					<Carousel.Caption>
@@ -125,7 +125,7 @@ function home() {
 				<Carousel.Item interval={2000}>
 					<img
 						className="d-block w-100"
-						src="https://picsum.photos/1024/500"
+						src="https://picsum.photos/1024/500?random=2"
 						alt="Second slide"
 					/>
 					<Carousel.Caption>
@@ -139,7 +139,7 @@ function home() {
 				<Carousel.Item interval={2000}>
 					<img
 						className="d-block w-100"
-						src="https://picsum.photos/1024/500"
+						src="https://picsum.photos/1024/500?random=3"
 						alt="Third slide"
 					/>
 					<Carousel.Caption>
@@ -181,7 +181,7 @@ function home() {
 									</a>
 								</div>
 								<img
-									src="https://picsum.photos/155/155"
+									src="https://picsum.photos/340/340?random=1"
 									alt=""
 								/>
 							</div>
@@ -195,7 +195,7 @@ function home() {
 									</a>
 								</div>
 								<img
-									src="https://picsum.photos/155/155"
+									src="https://picsum.photos/340/340?random=2"
 									alt=""
 								/>
 							</div>
@@ -209,7 +209,7 @@ function home() {
 									</a>
 								</div>
 								<img
-									src="https://picsum.photos/155/155"
+									src="https://picsum.photos/340/340?random=3"
 									alt=""
 								/>
 							</div>
@@ -223,7 +223,7 @@ function home() {
 									</a>
 								</div>
 								<img
-									src="https://picsum.photos/155/155"
+									src="https://picsum.photos/340/340?random=4"
 									alt=""
 								/>
 							</div>
@@ -237,7 +237,7 @@ function home() {
 									</a>
 								</div>
 								<img
-									src="https://picsum.photos/155/155"
+									src="https://picsum.photos/340/340?random=5"
 									alt=""
 								/>
 							</div>
@@ -251,7 +251,7 @@ function home() {
 									</a>
 								</div>
 								<img
-									src="https://picsum.photos/155/155"
+									src="https://picsum.photos/340/340?random=6"
 									alt=""
 								/>
 							</div>

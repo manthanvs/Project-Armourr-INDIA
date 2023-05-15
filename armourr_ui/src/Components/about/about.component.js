@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { AiOutlineAmazon, AiOutlineShoppingCart } from "react-icons/ai";
 import { SiFlipkart } from "react-icons/si";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import "./about.css";
 
 export default class about extends Component {
@@ -38,10 +39,11 @@ export default class about extends Component {
 
 	render() {
 		return (
-			<div id="about">
+			<div>
 				{/* About */}
 
 				{/* About Us */}
+				<div id="about">
 				<div className="container">
 					<div className="row">
 						<div className="about-col-1">
@@ -145,6 +147,7 @@ export default class about extends Component {
 						</div>
 					</div>
 				</div>
+				</div>
 
 				{/* SERVICES  */}
 				<div id="services">
@@ -188,6 +191,46 @@ export default class about extends Component {
 						</div>
 					</div>
 				</div>
+
+				{/*	 Accomplishments (OUR WORK) */}
+				<div id="portfolio">
+					<div className="container">
+						<h1 className="sub-title">Our Work</h1>
+						<div className="work-list">
+							<div className="work">
+								<img src="https://picsum.photos/650/800?random=1" alt="work1" />
+								<div className="layer">
+									<h3>Instagram</h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consectetur!</p>
+									<a href="https://www.instagram.com/"><FaExternalLinkAlt/></a>
+								</div>
+							</div>
+
+							<div className="work">
+								<img src="https://picsum.photos/650/800?random=2" alt="work2" />
+								<div className="layer">
+									<h3>Youtube</h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consectetur!</p>
+									<a href="https://www.youtube.com/"><FaExternalLinkAlt/></a>
+								</div>
+							</div>
+
+							<div className="work">
+								<img src="https://picsum.photos/650/800?random=3" alt="work3" />
+								<div className="layer">
+									<h3>Facebook</h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consectetur!</p>
+									<a href="https://www.facebook.com/"><FaExternalLinkAlt/></a>
+								</div>
+							</div>
+						</div>
+						<a href="/" className="btn">See More</a>
+
+					</div>
+				</div>
+
+
+
 			</div>
 		);
 	}
