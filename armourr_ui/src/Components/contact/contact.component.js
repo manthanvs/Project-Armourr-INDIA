@@ -35,13 +35,13 @@ export default class contact extends Component {
 								<a href="https://www.facebook.com/profile.php?id=100090029364604">
 									<FaFacebook className="icon" />
 								</a>
-								<a href="https://www.instagram.com/armourr_india/shounakshete">
+								<a href=".com/shounakshete">
 									<FaInstagram className="icon" />
 								</a>
-								<a href="https://www.instagram.com/armourr_india/shounakshete">
+								<a href="https://www.instagram.com/armourr_india">
 									<FaTwitter className="icon" />
 								</a>
-								<a href="https://www.instagram.com/armourr_india/shounakshete">
+								<a href="https://www.instagram.com/armourr_india">
 									<FaLinkedin className="icon" />
 								</a>
 							</div>

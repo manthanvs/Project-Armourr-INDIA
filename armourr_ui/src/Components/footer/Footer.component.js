@@ -109,17 +109,17 @@ function footer() {
 									</a>
 								</li>
 								<li>
-									<a href="https://www.instagram.com/armourr_india/shounakshete">
+									<a href="https://www.instagram.com/armourr_india">
 										<FaInstagram className="icon" />
 									</a>
 								</li>
 								<li>
-									<a href="https://www.instagram.com/armourr_india/shounakshete">
+									<a href="https://www.instagram.com/armourr_india">
 										<FaTwitter className="icon" />
 									</a>
 								</li>
 								<li>
-									<a href="https://www.instagram.com/armourr_india/shounakshete">
+									<a href="https://www.instagram.com/armourr_india">
 										<FaLinkedin className="icon" />
 									</a>
 								</li>
