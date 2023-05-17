@@ -11,8 +11,8 @@ export default class contact extends Component {
 		form.addEventListener("submit", (e) => {
 			e.preventDefault();
 			fetch(scriptURL, { method: "POST", body: new FormData(form) })
-				.then((response) => console.log("Success!", response))
-				.catch((error) => console.error("Error!", error.message));
+				.then((response) => alert("Success! Your Response has been submitted", response))
+				.catch((error) => alert("Error! There was problem in submitting your response", error.message));
 		});
 	}
 
@@ -32,16 +32,16 @@ export default class contact extends Component {
 								1234567890
 							</p>
 							<div className="social-icons">
-								<a href="www.facebook.com/shounakshete">
+								<a href="https://www.facebook.com/profile.php?id=100090029364604">
 									<FaFacebook className="icon" />
 								</a>
-								<a href="www.instagram.com/shounakshete">
+								<a href="https://www.instagram.com/armourr_india/shounakshete">
 									<FaInstagram className="icon" />
 								</a>
-								<a href="www.instagram.com/shounakshete">
+								<a href="https://www.instagram.com/armourr_india/shounakshete">
 									<FaTwitter className="icon" />
 								</a>
-								<a href="www.instagram.com/shounakshete">
+								<a href="https://www.instagram.com/armourr_india/shounakshete">
 									<FaLinkedin className="icon" />
 								</a>
 							</div>
