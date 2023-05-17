@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import "./Header.css";
 
-export class Header extends Component {
+export default class Header extends Component {
 	componentDidMount() {
 		// scroll effect i.e when scroll down navbar get hidden and when scroll up navbar appears again
 		const nav = document.querySelector(".nav");
@@ -90,7 +90,6 @@ export class Header extends Component {
 	}
 }
 
-export default Header;
 
 // <div className="container">
 //   <nav className="nav">

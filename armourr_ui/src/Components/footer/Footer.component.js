@@ -98,7 +98,7 @@ function footer() {
 						<div className="under-footer">
 							{/* Copyright */}
 							<p>
-								Copyright © 2022 HexaShop Co., Ltd. All Rights
+								Copyright © 2022 Shounak Multiverse., Ltd. All Rights
 								Reserved.
 								<br />
 							</p>
