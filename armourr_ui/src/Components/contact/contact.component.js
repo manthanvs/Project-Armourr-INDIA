@@ -5,6 +5,9 @@ import { IoIosMail, IoMdCall } from "react-icons/io";
 
 export default class contact extends Component {
 	componentDidMount() {
+		// this statement will scroll up to the top and 
+		window.scrollTo(0, 0);
+
 		const scriptURL = "https://script.google.com/macros/s/AKfycbyDFn4ytH0gUy4UoHbRGHyA-WRxahk_R53A-aixKaAkuI0ebkHVW3dwSFkCT34oOYfk_Q/exec";
 		const form = document.forms["submit-to-google-sheet"];
 
@@ -18,7 +21,7 @@ export default class contact extends Component {
 
 	render() {
 		return (
-			<div className="contact">
+			<div className="contact" id="contact">
 				<div className="container">
 					<div className="row">
 						<div className="contact-left">

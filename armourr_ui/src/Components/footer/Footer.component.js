@@ -12,7 +12,7 @@ import "./footer.css";
 
 function footer() {
 	return (
-		<footer>
+		<footer id="footer"	>
 			<div className="container">
 					{/* Remove the container if you want to extend the Footer to full width. */}
 						<div className="text-white text-center text-lg-start ">
@@ -30,15 +30,12 @@ function footer() {
 									{/*Grid column*/}
 									<div className="col-lg-4 col-md-12 mb-4 mb-md-0">
 										<p>
-											At vero eos et accusamus et iusto
-											odio dignissimos ducimus qui
-											blanditiis praesentium voluptatum
-											deleniti atque corrupti.
+										Armourr™ is aggressively looking to expand its reach across the
+										nation. 
 										</p>
 										<p>
-											Blanditiis praesentium voluptatum
-											deleniti atque corrupti quos dolores
-											et quas molestias.
+										If you are interested in becoming an exclusive supplier of our
+										products, contact us below:
 										</p>
 									</div>
 									{/*Grid column*/}
@@ -47,19 +44,19 @@ function footer() {
 											<li className="mb-3">
 												<FaHome className="icon" />
 												<span className="ms-2">
-													Warsaw, 00-967, Poland
+												Pune, Maharashtra
 												</span>
 											</li>
 											<li className="mb-3">
 												<IoIosMail className="icon" />
 												<span className="ms-2">
-													contact@example.com
+													armourr.india@gmail.com
 												</span>
 											</li>
 											<li className="mb-3">
 												<IoMdCall className="icon" />
 												<span className="ms-2">
-													+ 48 234 567 88
+												+91 89834 36036
 												</span>
 											</li>
 										</ul>
@@ -67,22 +64,22 @@ function footer() {
 									{/*Grid column*/}
 									<div className="col-lg-4 col-md-6 mb-4 mb-md-0 ">
 										<h5 className="text-uppercase text-center mb-4">
-											Opening hours
+										Contact Hours
 										</h5>
 										<table className="table text-center text-white">
 											<tbody className="fw-normal">
 												<tr>
-													<td>Mon - Thu:</td>
-													<td>8am - 9pm</td>
+													<td>Mon - Sat:</td>
+													<td>10am - 7pm</td>
 												</tr>
-												<tr>
+												{/* <tr>
 													<td>Fri - Sat:</td>
 													<td>8am - 1am</td>
 												</tr>
 												<tr>
 													<td>Sunday:</td>
 													<td>9am - 10pm</td>
-												</tr>
+												</tr> */}
 											</tbody>
 										</table>
 									</div>

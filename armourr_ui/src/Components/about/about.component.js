@@ -37,6 +37,12 @@ export default class about extends Component {
 		document.getElementById(tabname).classList.add("active-tab");
 	};
 
+	componentDidMount(){
+				// this statement will scroll up to the top and 
+				window.scrollTo(0, 0);
+
+	}
+
 	render() {
 		return (
 			<div>

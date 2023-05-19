@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import "./home.css";
 import { Container } from "react-bootstrap";
@@ -27,11 +28,9 @@ function home() {
 							<div className="left-content">
 								<h2>Explore Our Products</h2>
 								<span>
-									You are allowed to use this HexaShop HTML
-									CSS template. You can feel free to modify or
-									edit this layout. You can convert this
-									template as any kind of ecommerce CMS theme
-									as you wish.
+									Armourr™ is a Sports Apparel brand catering
+									to comfort wear for athletes and
+									sportspeople.
 								</span>
 								<div className="quote">
 									<i className="fa fa-quote-left"></i>
@@ -41,26 +40,28 @@ function home() {
 									</p>
 								</div>
 								<p>
-									There are 5 pages included in this HexaShop
-									Template and we are providing it to you for
-									absolutely free of charge at our TemplateMo
-									website. There are web development costs for
-									us.
+									We have recently launched our debut product
+									- Armourr™ Karate GI Lite (Karate Practice
+									Uniform - Lite). We are not only limited to
+									one sport but also spreading across our
+									upcoming products like daily wear Sports &
+									Gym T-Shirts, Tracksuits, Ladies specific
+									Gym Wear and much more. Stay tuned!
 								</p>
 								<p>
-									If this template is beneficial for your
-									website or business, please kindly{" "}
+									If this Website is beneficial for your
+									business, please kindly{" "}
 									<a
 										rel="nofollow"
-										href="https://paypal.me/templatemo"
+										href="#footer"
 										target="_parent">
 										support us
 									</a>{" "}
-									a little via PayPal. Please also tell your
-									friends about our great website. Thank you.
+									shower us love on our social handles down below. Please also tell your
+									friends about our great website. Thank you!!
 								</p>
 								<div className="main-border-button">
-									<a href="products.html">Discover More</a>
+								<Link to="/contact">Contact For More</Link>
 								</div>
 							</div>
 						</div>
@@ -106,51 +107,51 @@ function home() {
 			{/* Banner Hero Area Starts*/}
 
 			{/* Used Carousel https://react-bootstrap.github.io/components/carousel/#individual-item-intervals */}
-			<Container my={5}>
-			<Carousel>
-				<Carousel.Item interval={2000}>
-					<img
-						className="d-flex justify-content-center w-100"
-						src="https://picsum.photos/1024/500?random=1"
-						alt="Second slide"
-					/>
-					<Carousel.Caption>
-						<h3>First slide label</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit.
-						</p>
-					</Carousel.Caption>
-				</Carousel.Item>
-				<Carousel.Item interval={2000}>
-					<img
-						className="d-block w-100"
-						src="https://picsum.photos/1024/500?random=2"
-						alt="Second slide"
-					/>
-					<Carousel.Caption>
-						<h3>Second slide label</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit.
-						</p>
-					</Carousel.Caption>
-				</Carousel.Item>
-				<Carousel.Item interval={2000}>
-					<img
-						className="d-block w-100"
-						src="https://picsum.photos/1024/500?random=3"
-						alt="Third slide"
-					/>
-					<Carousel.Caption>
-						<h3>Third slide label</h3>
-						<p>
-							Praesent commodo cursus magna, vel scelerisque nisl
-							consectetur.
-						</p>
-					</Carousel.Caption>
-				</Carousel.Item>
-			</Carousel>
+			<Container>
+				<Carousel style={{ marginBottom:"60px" }}>
+					<Carousel.Item interval={2000}>
+						<img
+							className="d-flex justify-content-center w-100"
+							src="https://picsum.photos/1024/500?random=1"
+							alt="Second slide"
+						/>
+						<Carousel.Caption>
+							<h3>First slide label</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit.
+							</p>
+						</Carousel.Caption>
+					</Carousel.Item>
+					<Carousel.Item interval={2000}>
+						<img
+							className="d-block w-100"
+							src="https://picsum.photos/1024/500?random=2"
+							alt="Second slide"
+						/>
+						<Carousel.Caption>
+							<h3>Second slide label</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit.
+							</p>
+						</Carousel.Caption>
+					</Carousel.Item>
+					<Carousel.Item interval={2000}>
+						<img
+							className="d-block w-100"
+							src="https://picsum.photos/1024/500?random=3"
+							alt="Third slide"
+						/>
+						<Carousel.Caption>
+							<h3>Third slide label</h3>
+							<p>
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur.
+							</p>
+						</Carousel.Caption>
+					</Carousel.Item>
+				</Carousel>
 			</Container>
 
 			{/* Banner Hero Area End*/}
