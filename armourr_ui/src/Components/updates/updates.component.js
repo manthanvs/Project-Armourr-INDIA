@@ -53,11 +53,12 @@ export default class updates extends Component {
 				<Container>
 					<a
 						className="HOVER"
-						href="https://www.instagram.com/reel/CsPoIueocXl/?utm_source=ig_web_copy_link&igshid=MmJiY2I4NDBkZg==">
+						href="https://www.instagram.com/armourr_india/">
 						<span />
 						<p>New Merch ,Coming Soon! </p>
 					</a>
 
+					
 					{/* This can be used for Dont' Hover me! disabled flash */}
 					{/* eslint-disable-next-line */}
 					{/* <a className="HOVER FLASH">

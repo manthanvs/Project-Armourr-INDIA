@@ -32,13 +32,13 @@ function home() {
 									to comfort wear for athletes and
 									sportspeople.
 								</span>
-								<div className="quote">
+								{/* <div className="quote">
 									<i className="fa fa-quote-left"></i>
 									<p>
 										You are not allowed to redistribute this
 										template ZIP file on any other website.
 									</p>
-								</div>
+								</div> */}
 								<p>
 									We have recently launched our debut product
 									- Armourr™ Karate GI Lite (Karate Practice
@@ -77,7 +77,7 @@ function home() {
 									<div className="col-lg-6">
 										<div className="first-image">
 											<img
-												src="assets/images/explore-image-01.jpg"
+												src="https://picsum.photos/270/250?random=1"
 												alt=""
 											/>
 										</div>
@@ -85,7 +85,7 @@ function home() {
 									<div className="col-lg-6">
 										<div className="second-image">
 											<img
-												src="assets/images/explore-image-02.jpg"
+												src="https://picsum.photos/270/250?random=2"
 												alt=""
 											/>
 										</div>
@@ -162,7 +162,7 @@ function home() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="section-heading">
-								<h2>Social Media</h2>
+								<h2>Close Look</h2>
 								<span>
 									Details to details is what makes Hexashop
 									different from the other themes.
