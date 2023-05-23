@@ -6,6 +6,11 @@ import "./updates.css";
 
 export default class updates extends Component {
 	componentDidMount() {
+
+		// this statement will scroll up to the top and 
+		window.scrollTo(0, 0);
+
+
 		const ANIMATEDCLASSNAME = "animated";
 		const ELEMENTS = document.querySelectorAll(".HOVER");
 		const ELEMENTS_SPAN = [];

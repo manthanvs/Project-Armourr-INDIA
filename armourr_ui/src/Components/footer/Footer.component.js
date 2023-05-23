@@ -15,7 +15,7 @@ function footer() {
 		<footer id="footer"	>
 			<div className="container">
 					{/* Remove the container if you want to extend the Footer to full width. */}
-						<div className="text-white text-center text-lg-start ">
+						<div className="text-white text-lg-start ">
 							{/* Grid container */}
 
 							<div className="container my-2">
@@ -35,7 +35,7 @@ function footer() {
 										</p>
 										<p>
 										If you are interested in becoming an exclusive supplier of our
-										products, contact us below:
+										products, contact us :
 										</p>
 									</div>
 									{/*Grid column*/}

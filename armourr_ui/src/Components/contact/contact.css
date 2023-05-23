@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: center top;
     padding: 120px 0;
+    height: 100%;
     color: #ababab;
 }
 
@@ -78,4 +79,10 @@ form .btn.btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor:pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-left,.contact-right{
+        flex-basis: 100%;
+    }
 }

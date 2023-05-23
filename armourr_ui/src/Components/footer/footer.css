@@ -10,8 +10,6 @@ footer .row{
 footer img{
   margin-bottom: 5px;
   position: relative;
-  top: -15px;
-  right: 5px;
   display: flex;
   width: 215px;
   align-content: center;

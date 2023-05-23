@@ -53,7 +53,7 @@ export default class about extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="about-col-1">
-							<img src="https://picsum.photos/200/300" alt="" />
+							<img src="https://picsum.photos/200/275" alt="" />
 						</div>
 						<div className="about-col-2">
 							<h1 className="sub-title">About us</h1>
