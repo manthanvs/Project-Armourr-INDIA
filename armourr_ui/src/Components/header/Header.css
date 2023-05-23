@@ -12,7 +12,7 @@ nav {
     align-content: center;
     flex-direction: row;
     z-index: 2;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .nav--hidden{
@@ -96,7 +96,7 @@ nav .iconhide{
 		height: 100vh;
 		padding-top: 50px;
 		z-index: 4;
-		transition: right 0.5s;
+		transition: right 0.3s;
 	}
 	
 	nav ul li{

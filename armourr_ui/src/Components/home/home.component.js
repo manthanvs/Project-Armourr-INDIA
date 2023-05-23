@@ -19,7 +19,6 @@ export default class home extends Component {
 		this.setState({ width: leather.offsetWidth });
 	}
 
-	compone;
 	render() {
 		
 		return (
