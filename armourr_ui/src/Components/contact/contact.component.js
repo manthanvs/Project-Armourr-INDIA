@@ -56,7 +56,7 @@ export default class contact extends Component {
 										<FaLinkedin className="icon" />
 									</a>
 								</div>
-								<a href="/" disabled download className="btn btn2">
+								<a href="/" download className="btn btn2">
 									Download Brochure
 								</a>
 							</div>
