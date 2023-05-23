@@ -31,7 +31,7 @@ export default class home extends Component {
 						/>
 					</div>
 					<div className="card-img-overlay">
-						<h1 className="card-title">ARMOURR INDIA</h1>
+						<h1 className="card-title">Armourr</h1>
 						<h5 className="card-text">
 							A Sports Brand to Rely On!
 						</h5>
