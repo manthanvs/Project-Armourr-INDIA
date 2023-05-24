@@ -95,13 +95,13 @@ function footer() {
 						<div className="under-footer">
 							{/* Copyright */}
 							<p>
-								Copyright © 2022 Shounak Multiverse., Ltd. All Rights
+								Copyright © 2022 Shounak Multiverse LLP , All Rights
 								Reserved.
 								<br />
 							</p>
 							<ul>
 								<li>
-									<a href="https://www.facebook.com/profile.php?id=100090029364604">
+									<a href="https://www.facebook.com/people/Armourr/100090158390307/">
 										<FaFacebook className="icon" />
 									</a>
 								</li>
