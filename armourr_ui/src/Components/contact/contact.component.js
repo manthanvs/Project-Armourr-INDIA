@@ -43,7 +43,7 @@ export default class contact extends Component {
 									+91 89834 36036
 								</p>
 								<div className="social-icons">
-									<a href="https://www.facebook.com/profile.php?id=100090029364604">
+									<a href="https://www.facebook.com/people/Armourr/100090158390307/">
 										<FaFacebook className="icon" />
 									</a>
 									<a href=".com/shounakshete">

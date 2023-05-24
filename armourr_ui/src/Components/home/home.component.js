@@ -20,15 +20,16 @@ export default class home extends Component {
 	}
 
 	render() {
-		
 		return (
 			<div className="banner">
 				<div className="card text-bg-dark h1_text">
 					<div className="card-img">
-						<img
-							src="https://picsum.photos/seed/picsum/432/285/?blur=2"
-							alt="#"
-						/>
+					{/* overlay for the logo  */}
+									{/* <div className="overlay">
+										<a href="/" className="icon" title="User Profile">
+											<img src="apple-touch-icon.png" className="fa fa-user" alt="icon"/>
+										</a>
+									</div> */}
 					</div>
 					<div className="card-img-overlay">
 						<h1 className="card-title">ARMOURR</h1>

@@ -226,7 +226,7 @@ export default class about extends Component {
 								<div className="layer">
 									<h3>Facebook</h3>
 									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consectetur!</p>
-									<a href="https://www.facebook.com/"><FaExternalLinkAlt/></a>
+									<a href="https://www.facebook.com/people/Armourr/100090158390307/"><FaExternalLinkAlt/></a>
 								</div>
 							</div>
 						</div>
