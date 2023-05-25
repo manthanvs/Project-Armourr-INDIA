@@ -208,7 +208,7 @@ export default class about extends Component {
 								<div className="layer">
 									<h3>Instagram</h3>
 									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consectetur!</p>
-									<a href="https://www.instagram.com/"><FaExternalLinkAlt/></a>
+									<a href="https://www.instagram.com/armourr_india"><FaExternalLinkAlt/></a>
 								</div>
 							</div>
 
