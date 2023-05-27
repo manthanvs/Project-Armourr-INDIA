@@ -29,7 +29,7 @@ export default class home extends Component {
 	}
 
 	render() {
-		window.beholdWidgets.initialize();
+		// window.beholdWidgets.initialize();
 		return (
 			<div className="banner">
 				<div className="card text-bg-dark h1_text">
@@ -300,7 +300,7 @@ export default class home extends Component {
 				</section> */}
 				{/* ***** Social Area Ends ***** */}
 
-				<figure data-behold-id="K3FROGB4CRW8cXI87KMc"></figure>
+				{/* <figure data-behold-id=""></figure> */}
 				
 			</div>
 		);
