@@ -17,6 +17,7 @@ nav {
 
 .nav--hidden{
 	height: 80px;
+	/* background-image: linear-gradient(to right, transparent , rgba(0, 0, 0, 0.900)) */
 	background-color: rgba(0, 0, 0, 0.900);
 }
 

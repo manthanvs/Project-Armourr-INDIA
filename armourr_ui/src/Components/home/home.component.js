@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Carousel from "react-bootstrap/Carousel";
+// import Carousel from "react-bootstrap/Carousel";
+// import { Container } from "react-bootstrap";
 import "./home.css";
-import { Container } from "react-bootstrap";
 
 export default class home extends Component {
 	constructor() {
@@ -14,12 +14,22 @@ export default class home extends Component {
 		// this statement will scroll up to the top and
 		window.scrollTo(0, 0);
 
+		// took the all the document of Leather that is the written section and 
 		let leather = document.getElementById("leather");
+
+
+		// used their dimensions to set height and width variable's state 
+		// leather.offsetHeight brings the height of the leather element and same for leather.offsetWidth 
 		this.setState({ height: leather.offsetHeight });
 		this.setState({ width: leather.offsetWidth });
+		// as we set the states of height and width variables
+
+		// we use them in the url of "https://picsum.photos/${this.state.width}/${this.state.height}?random=1"
+		// {this.state.height} and ${this.state.width} will be substituted.
 	}
 
 	render() {
+		window.beholdWidgets.initialize();
 		return (
 			<div className="banner">
 				<div className="card text-bg-dark h1_text">
@@ -55,7 +65,7 @@ export default class home extends Component {
 									<i className="fa fa-quote-left"></i>
 									<p>
 										You are not allowed to redistribute this
-										template ZIP file on any other website.
+										on any other website.
 									</p>
 								</div> */}
 									<p>
@@ -134,7 +144,7 @@ export default class home extends Component {
 				{/* Banner Hero Area Starts*/}
 
 				{/* Used Carousel https://react-bootstrap.github.io/components/carousel/#individual-item-intervals */}
-				<Container>
+				{/* <Container>
 					<Carousel style={{ marginBottom: "60px" }}>
 						<Carousel.Item interval={2000}>
 							<img
@@ -179,12 +189,12 @@ export default class home extends Component {
 							</Carousel.Caption>
 						</Carousel.Item>
 					</Carousel>
-				</Container>
+				</Container> */}
 
 				{/* Banner Hero Area End*/}
 
 				{/* ***** Social Area Starts ***** */}
-				<section className="section" id="social">
+				{/* <section className="section" id="social">
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-12">
@@ -287,8 +297,11 @@ export default class home extends Component {
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 				{/* ***** Social Area Ends ***** */}
+
+				<figure data-behold-id="K3FROGB4CRW8cXI87KMc"></figure>
+				
 			</div>
 		);
 	}
