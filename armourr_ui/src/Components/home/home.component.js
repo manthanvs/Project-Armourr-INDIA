@@ -78,7 +78,7 @@ export default class home extends Component {
 										Tracksuits, Ladies specific Gym Wear and
 										much more. Stay tuned!
 									</p>
-									<p>
+									{/* <p>
 										If this Website is beneficial for your
 										business, please kindly{" "}
 										<a
@@ -91,7 +91,7 @@ export default class home extends Component {
 										down below. Please also tell your
 										friends about our great website. Thank
 										you!!
-									</p>
+									</p> */}
 									<div className="main-border-button">
 										<Link to="/contact">
 											Contact For More
