@@ -14,18 +14,18 @@ export default class home extends Component {
 		// this statement will scroll up to the top and
 		window.scrollTo(0, 0);
 
-		// took the all the document of Leather that is the written section and 
-		let leather = document.getElementById("leather");
+																														// // took the all the document of Leather that is the written section and 
+																														// let leather = document.getElementById("leather");
 
 
-		// used their dimensions to set height and width variable's state 
-		// leather.offsetHeight brings the height of the leather element and same for leather.offsetWidth 
-		this.setState({ height: leather.offsetHeight });
-		this.setState({ width: leather.offsetWidth });
-		// as we set the states of height and width variables
+																														// // used their dimensions to set height and width variable's state 
+																														// // leather.offsetHeight brings the height of the leather element and same for leather.offsetWidth 
+																														// this.setState({ height: leather.offsetHeight });
+																														// this.setState({ width: leather.offsetWidth });
+																														// // as we set the states of height and width variables
 
-		// we use them in the url of "https://picsum.photos/${this.state.width}/${this.state.height}?random=1"
-		// {this.state.height} and ${this.state.width} will be substituted.
+																														// // we use them in the url of "https://picsum.photos/${this.state.width}/${this.state.height}?random=1"
+																														// // {this.state.height} and ${this.state.width} will be substituted.
 	}
 
 	render() {
@@ -53,7 +53,7 @@ export default class home extends Component {
 				<section className="section" id="explore">
 					<div className="container">
 						<div className="row">
-							<div className="col-lg-6">
+
 								<div className="left-content">
 									<h2>Explore Our Products</h2>
 									<span>
@@ -98,8 +98,21 @@ export default class home extends Component {
 										</Link>
 									</div>
 								</div>
-							</div>
-							<div className="col-lg-6">
+								{/* 
+										^
+										|
+										|
+										|
+								if you want columns then take the left-content and just alt down towards col-lg-6 
+										|
+										|
+										|
+										v
+								*/}
+			<div className="col-lg-6">    </div>
+
+			{/* and comment out these lines and the code from ComponentDidMount(){ }			 */}
+							{/* <div className="col-lg-6">
 								<div className="right-content">
 									<div className="row">
 										<div className="col-lg-6">
@@ -135,7 +148,7 @@ export default class home extends Component {
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</section>
