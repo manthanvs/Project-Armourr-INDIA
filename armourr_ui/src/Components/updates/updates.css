@@ -1,6 +1,14 @@
 .details{
-    padding: 120px 0;
+	padding: 120px 0;
     color: #ababab;
+}
+
+.details h4{
+	font-family: myfont;
+}
+
+.details h5{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @keyframes shake {
@@ -40,14 +48,14 @@
     text-decoration: none;
 }
 
-.HOVER p {
+.HOVER h4 {
 	position: relative;
 	z-index: 5;
 	
 	transition: color var(--time);
 }
 
-.HOVER:hover p {
+.HOVER:hover h4 {
 	color: #222;
 }
 
@@ -71,7 +79,7 @@
 	padding-top: calc(var(--width) * 2.25);
 }
 
-.HOVER.FLASH:hover p {
+.HOVER.FLASH:hover h4 {
 	color: white;
 }
 

@@ -52,7 +52,7 @@ export default class updates extends Component {
 	render() {
 		return (
 			<div className="details">
-				<h3>Updates About New Merch will be seen here.</h3>
+				<h5>Updates About New Merch will be seen here.</h5>
 				{/* https://codepen.io/ViktorKorolyuk/pen/GYGwpv */}
 				<div className="display">
 				<Container>
@@ -60,7 +60,7 @@ export default class updates extends Component {
 						className="HOVER"
 						href="https://www.instagram.com/armourr_india/">
 						<span />
-						<p>New Merch ,Coming Soon! </p>
+						<h4>New Merch ,Coming Soon! </h4>
 					</a>
 
 					
