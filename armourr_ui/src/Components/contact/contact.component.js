@@ -46,7 +46,7 @@ export default class contact extends Component {
 									<a href="https://www.facebook.com/people/Armourr/100090158390307/">
 										<FaFacebook className="icon" />
 									</a>
-									<a href=".com/shounakshete">
+									<a href="https://www.instagram.com/armourr_india">
 										<FaInstagram className="icon" />
 									</a>
 									<a href="https://www.instagram.com/armourr_india">
