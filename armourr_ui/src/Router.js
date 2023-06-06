@@ -10,6 +10,8 @@ import updates from './Components/updates/updates.component.js';
 import about from './Components/about/about.component.js';
 import contact from './Components/contact/contact.component.js';
 
+import form from './Components/form/form.component.js';
+
 
 
 
@@ -22,6 +24,7 @@ function Router() {
             <Route exact path="/about" Component={about}></Route>
             <Route exact path="/updates" Component={updates}></Route>
             <Route exact path="/contact"  Component={contact}></Route>
+            <Route exact path="/form"  Component={form}></Route>
       </Routes>
       <Footer/>       
       </BrowserRouter>

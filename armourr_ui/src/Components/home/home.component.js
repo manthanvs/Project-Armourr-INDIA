@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 // import Carousel from "react-bootstrap/Carousel";
 // import { Container } from "react-bootstrap";
 import "./home.css";
@@ -14,18 +15,17 @@ export default class home extends Component {
 		// this statement will scroll up to the top and
 		window.scrollTo(0, 0);
 
-																														// // took the all the document of Leather that is the written section and 
-																														// let leather = document.getElementById("leather");
+		// // took the all the document of Leather that is the written section and
+		// let leather = document.getElementById("leather");
 
+		// // used their dimensions to set height and width variable's state
+		// // leather.offsetHeight brings the height of the leather element and same for leather.offsetWidth
+		// this.setState({ height: leather.offsetHeight });
+		// this.setState({ width: leather.offsetWidth });
+		// // as we set the states of height and width variables
 
-																														// // used their dimensions to set height and width variable's state 
-																														// // leather.offsetHeight brings the height of the leather element and same for leather.offsetWidth 
-																														// this.setState({ height: leather.offsetHeight });
-																														// this.setState({ width: leather.offsetWidth });
-																														// // as we set the states of height and width variables
-
-																														// // we use them in the url of "https://picsum.photos/${this.state.width}/${this.state.height}?random=1"
-																														// // {this.state.height} and ${this.state.width} will be substituted.
+		// // we use them in the url of "https://picsum.photos/${this.state.width}/${this.state.height}?random=1"
+		// // {this.state.height} and ${this.state.width} will be substituted.
 	}
 
 	render() {
@@ -34,8 +34,8 @@ export default class home extends Component {
 			<div className="banner">
 				<div className="card text-bg-dark h1_text">
 					<div className="card-img">
-					{/* overlay for the logo  */}
-									{/* <div className="overlay">
+						{/* overlay for the logo  */}
+						{/* <div className="overlay">
 										<a href="/" className="icon" title="User Profile">
 											<img src="apple-touch-icon.png" className="fa fa-user" alt="icon"/>
 										</a>
@@ -53,32 +53,30 @@ export default class home extends Component {
 				<section className="section" id="explore">
 					<div className="container">
 						<div className="row">
-
-								<div className="left-content">
-									<h2>Explore Our Products</h2>
-									<span>
-										Armourr™ is a Sports Apparel brand
-										catering to comfort wear for athletes
-										and sportspeople.
-									</span>
-									{/* <div className="quote">
+							<div className="left-content">
+								<h2>Explore Our Products</h2>
+								<span>
+									Armourr™ is a Sports Apparel brand catering
+									to comfort wear for athletes and
+									sportspeople.
+								</span>
+								{/* <div className="quote">
 									<i className="fa fa-quote-left"></i>
 									<p>
 										You are not allowed to redistribute this
 										on any other website.
 									</p>
 								</div> */}
-									<p>
-										We have recently launched our debut
-										product - Armourr™ Karate GI Lite
-										(Karate Practice Uniform - Lite). We are
-										not only limited to one sport but also
-										spreading across our upcoming products
-										like daily wear Sports & Gym T-Shirts,
-										Tracksuits, Ladies specific Gym Wear and
-										much more. Stay tuned!
-									</p>
-									{/* <p>
+								<p>
+									We have recently launched our debut product
+									- Armourr™ Karate GI Lite (Karate Practice
+									Uniform - Lite). We are not only limited to
+									one sport but also spreading across our
+									upcoming products like daily wear Sports &
+									Gym T-Shirts, Tracksuits, Ladies specific
+									Gym Wear and much more. Stay tuned!
+								</p>
+								{/* <p>
 										If this Website is beneficial for your
 										business, please kindly{" "}
 										<a
@@ -92,13 +90,11 @@ export default class home extends Component {
 										friends about our great website. Thank
 										you!!
 									</p> */}
-									<div className="main-border-button">
-										<Link to="/contact">
-											Contact For More
-										</Link>
-									</div>
+								<div className="main-border-button">
+									<Link to="/contact">Contact For More</Link>
 								</div>
-								{/* 
+							</div>
+							{/* 
 										^
 										|
 										|
@@ -109,9 +105,9 @@ export default class home extends Component {
 										|
 										v
 								*/}
-			<div className="col-lg-6">    </div>
+							<div className="col-lg-6"> </div>
 
-			{/* and comment out these lines and the code from ComponentDidMount(){ }			 */}
+							{/* and comment out these lines and the code from ComponentDidMount(){ }			 */}
 							{/* <div className="col-lg-6">
 								<div className="right-content">
 									<div className="row">
@@ -153,6 +149,44 @@ export default class home extends Component {
 					</div>
 				</section>
 				{/* ***** Explore Area Ends ***** */}
+
+				{/* Form For the New Model Recruitment starts here*/}
+
+				<div className="modelrecruit container">
+					<div id="portfolio">
+						<div className="container">
+							<h1 className="sub-title">
+								Become Face of Our Brand
+							</h1>
+							<div className="work-list">
+								<div className="work">
+									<img
+										src="recruiting gif2.gif"
+										alt="work1"
+									/>
+								</div>
+
+								<div className="work">
+									<img
+										src="recruiting gif1.gif"
+										alt="work2"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<p>
+						Looking for Professional Karate / Taekwondo Athletes for
+						promoting the sport with Armourr Merchandise : Karate &
+						Taekwondo Gi and many other aligned products.
+					</p>
+					<Link className="btn" to="/form">
+						Click Here to Apply
+					</Link>
+				</div>
+
+				{/* Form For the New Model Recruitment ends here*/}
 
 				{/* Banner Hero Area Starts*/}
 
@@ -314,7 +348,6 @@ export default class home extends Component {
 				{/* ***** Social Area Ends ***** */}
 
 				{/* <figure data-behold-id=""></figure> */}
-				
 			</div>
 		);
 	}

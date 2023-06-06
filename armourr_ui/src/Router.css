@@ -38,10 +38,12 @@ body{
   padding: 14px 50px;
   border-radius: 5px;
   text-decoration: none;
+  background-color:#000000;
   color: #fff;
   transition: background 0.3s;
 }
 
 .btn:hover{
   background:#FB4F93;
+  border: 1px solid #FB4F93;
 }
