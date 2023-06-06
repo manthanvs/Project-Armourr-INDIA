@@ -114,11 +114,11 @@ function FormExample() {
 						<Form.Control
 							name="Number"
 							type="number"
-							placeholder="Zip"
+							placeholder="Number"
 							required
 						/>
 						<Form.Control.Feedback type="invalid">
-							Please provide a valid zip.
+							Please provide a valid number.
 						</Form.Control.Feedback>
 					</Form.Group>
 				</Row>
