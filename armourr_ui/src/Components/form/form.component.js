@@ -34,7 +34,7 @@ export default class FormExample extends React.Component {
 			<Form
 				name="submit-to-google-sheet"
 				className="form"
-				target="_parent">
+				target="_self">
 				<Container>
 					<Row className="mb-3">
 						{/* Full Name */}
