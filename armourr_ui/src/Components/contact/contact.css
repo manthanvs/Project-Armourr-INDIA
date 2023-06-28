@@ -24,6 +24,7 @@
 }
 
 .contact-left p {
+	font-size: large;
 	margin-top: 10%;
 	color: #171717;
 }
@@ -82,21 +83,20 @@ form .btn.btn2 {
 }
 
 .contact .btn{
-    display: block;
+	display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #FB4F93;
+    border: none ;
     padding: 14px 50px;
     border-radius: 5px;
     text-decoration: none;
-    background-color:#262626;
+    background-color: #171717;
     color: #fff;
     transition: background 0.3s;
   }
   
 .contact .btn:hover{
     background:#FB4F93;
-    border: 1px solid #FB4F93;
   }
 
 @media only screen and (max-width: 767px) {

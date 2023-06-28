@@ -34,7 +34,7 @@ body{
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #FB4F93;
+  border: 0.1px solid #ffffff;
   padding: 14px 50px;
   border-radius: 5px;
   text-decoration: none;

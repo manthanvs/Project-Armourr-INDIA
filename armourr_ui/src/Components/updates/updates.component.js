@@ -6,10 +6,8 @@ import "./updates.css";
 
 export default class updates extends Component {
 	componentDidMount() {
-
-		// this statement will scroll up to the top and 
+		// this statement will scroll up to the top and
 		window.scrollTo(0, 0);
-
 
 		const ANIMATEDCLASSNAME = "animated";
 		const ELEMENTS = document.querySelectorAll(".HOVER");
@@ -55,23 +53,79 @@ export default class updates extends Component {
 				<h5>Updates About New Merch will be seen here.</h5>
 				{/* https://codepen.io/ViktorKorolyuk/pen/GYGwpv */}
 				<div className="display">
-				<Container>
-					<a
-						className="HOVER"
-						href="https://www.instagram.com/armourr_india/">
-						<span />
-						<h4>New Merch ,Coming Soon! </h4>
-					</a>
+					<Container>
+						<a
+							className="HOVER"
+							href="https://www.instagram.com/armourr_india/">
+							<span />
+							<h4>New Merch ,Coming Soon! </h4>
+						</a>
 
-					
-					{/* This can be used for Dont' Hover me! disabled flash */}
-					{/* eslint-disable-next-line */}
-					{/* <a className="HOVER FLASH">
+						{/* This can be used for Dont' Hover me! disabled flash */}
+						{/* eslint-disable-next-line */}
+						{/* <a className="HOVER FLASH">
 						<span />
 						<text>Don't Hover Me!</text>
 					</a> */}
 					</Container>
 				</div>
+				<Container className="cardview">
+					<div className="temp_card" style={{ "--clr": "#009688" }}>
+						<div className="img-box">
+							<img
+								src="https://picsum.photos/200/275?random=1"
+								alt="temp"
+							/>
+						</div>
+
+						<div className="content">
+							<h2>Next Ideas</h2>
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Cupiditate magnam ipsam
+								dolores tenetur eum libero aliquam animi minus
+								nulla velit!
+							</p>
+							<a href="/">Read more</a>
+						</div>
+					</div>
+					<div className="temp_card" style={{ "--clr": " #FF3E7F" }}>
+						<div className="img-box">
+							<img
+								src="https://picsum.photos/200/275?random=2"
+								alt="temp"
+							/>
+						</div>
+						<div className="content">
+							<h2>Upcoming Colabs</h2>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur
+								adipisicing elit. Architecto, hic? Magnam eum
+								error saepe doloribus corrupti repellat quisquam
+								alias doloremque!
+							</p>
+							<a href="/">Read More</a>
+						</div>
+					</div>
+					<div className="temp_card" style={{ "--clr": " #03A9F4" }}>
+						<div className="img-box">
+							<img
+								src="https://picsum.photos/200/275?random=3"
+								alt="temp"
+							/>
+						</div>
+						<div className="content">
+							<h2>New Stock</h2>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur
+								adipisicing elit. Architecto, hic? Magnam eum
+								error saepe doloribus corrupti repellat quisquam
+								alias doloremque!
+							</p>
+							<a href="/">Read More</a>
+						</div>
+					</div>
+				</Container>
 			</div>
 		);
 	}
