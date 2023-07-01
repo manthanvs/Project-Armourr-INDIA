@@ -27,41 +27,75 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
-	<!-- Start Single Page Apps for GitHub Pages -->
-	<script type="text/javascript">
-		// Single Page Apps for GitHub Pages
-		// MIT License
-		// https://github.com/rafgraph/spa-github-pages
-		// This script checks to see if a redirect is present in the query string,
-		// converts it back into the correct url and adds it to the
-		// browser's history using window.history.replaceState(...),
-		// which won't cause the browser to attempt to load the new url.
-		// When the single page app is loaded further down in this file,
-		// the correct url will be waiting in the browser's history for
-		// the single page app to route accordingly.
-		(function (l) {
-			if (l.search[1] === "/") {
-				var decoded = l.search
-					.slice(1)
-					.split("&")
-					.map(function (s) {
-						return s.replace(/~and~/g, "&");
-					})
-					.join("?");
-				window.history.replaceState(
-					null,
-					null,
-					l.pathname.slice(0, -1) + decoded + l.hash
-				);
+		<!-- Start Single Page Apps for GitHub Pages -->
+		<script type="text/javascript">
+			// Single Page Apps for GitHub Pages
+			// MIT License
+			// https://github.com/rafgraph/spa-github-pages
+			// This script checks to see if a redirect is present in the query string,
+			// converts it back into the correct url and adds it to the
+			// browser's history using window.history.replaceState(...),
+			// which won't cause the browser to attempt to load the new url.
+			// When the single page app is loaded further down in this file,
+			// the correct url will be waiting in the browser's history for
+			// the single page app to route accordingly.
+			(function (l) {
+				if (l.search[1] === "/") {
+					var decoded = l.search
+						.slice(1)
+						.split("&")
+						.map(function (s) {
+							return s.replace(/~and~/g, "&");
+						})
+						.join("?");
+					window.history.replaceState(
+						null,
+						null,
+						l.pathname.slice(0, -1) + decoded + l.hash
+					);
+				}
+			})(window.location);
+		</script>
+		<!-- End Single Page Apps for GitHub Pages -->
+		<style>
+			.loading {
+				-webkit-animation: ms-scaleout1 2s infinite ease-in-out;
+				animation: ms-scaleout1 2s infinite ease-in-out;
+				
+				background-color: #e0e0e0;
+				border-radius: 100%;
+				height: 6em;
+				width: 6em;
 			}
-		})(window.location);
-	</script>
-	<!-- End Single Page Apps for GitHub Pages -->
+
+			.container1 {
+				align-items: center;
+				background-color: rgb(20, 20, 20);
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				width: 100vw;
+			}
+
+			@keyframes ms-scaleout1 {
+				0% {
+					-webkit-transform: scale(0);
+					transform: scale(0);
+				}
+				100% {
+					-webkit-transform: scale(2);
+					opacity: 0.001;
+					transform: scale(100);
+				}
+			}
+		</style>
 
 		<title>Armourr</title>
 	</head>
 	<body>
-		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="spinner" class="container1">
+			<div class="loading"></div>
+		</div>
 		<div id="root"></div>
 		<!--
       This HTML file is a template.
@@ -73,8 +107,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-	
-	<!-- <script src="https://w.behold.so/widget.js" type="module"></script> -->
+
+		<!-- <script src="https://w.behold.so/widget.js" type="module"></script> -->
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

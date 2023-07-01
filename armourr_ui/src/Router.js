@@ -1,6 +1,6 @@
 import './Router.css';
 
-import React from 'react';
+import React,{useState} from 'react';
 import { BrowserRouter , Routes , Route} from "react-router-dom";
 
 import Header from './Components/header/Header.component.js';
@@ -16,7 +16,17 @@ import form from './Components/form/form.component.js';
 
 
 function Router() {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if(spinner){
+    setTimeout(() => {
+      spinner.style.display="none";
+      setLoading(false);
+    }, 1000);
+  }
+
   return (
+    !loading && (
       <BrowserRouter>
       <Header/>
       <Routes>
@@ -27,7 +37,7 @@ function Router() {
             <Route exact path="/form"  Component={form}></Route>
       </Routes>
       <Footer/>       
-      </BrowserRouter>
+      </BrowserRouter>)
   )
 }
 
