@@ -161,14 +161,14 @@ export default class home extends Component {
 							<div className="work-list">
 								<div className="work">
 									<img
-										src="recruiting gif2.gif"
+										src="images/recruiting gif2.gif"
 										alt="work1"
 									/>
 								</div>
 
 								<div className="work">
 									<img
-										src="recruiting gif1.gif"
+										src="images/recruiting gif1.gif"
 										alt="work2"
 									/>
 								</div>

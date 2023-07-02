@@ -35,7 +35,7 @@ export default class Header extends Component {
 	render() {
 		return (
 			<nav className="nav">
-				<img src="apple-touch-icon.png" alt="logo" className="logo" />
+				<img src="images/apple-touch-icon.png" alt="logo" className="logo" />
 				<ul id="sidemenu">
 					<li>
 						<Link to="/">Home</Link>
