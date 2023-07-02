@@ -158,15 +158,15 @@ export default class home extends Component {
 							<h1 className="sub-title">
 								Become Face of Our Brand
 							</h1>
-							<div className="work-list">
-								<div className="work">
+							<div className="work1-list">
+								<div className="work1">
 									<img
 										src="images/recruiting gif2.gif"
 										alt="work1"
 									/>
 								</div>
 
-								<div className="work">
+								<div className="work1">
 									<img
 										src="images/recruiting gif1.gif"
 										alt="work2"
