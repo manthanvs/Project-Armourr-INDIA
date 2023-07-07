@@ -2,9 +2,9 @@ import React, { Component } from "react";
 // import { InstagramEmbed } from "react-social-media-embed";
 import Container from "react-bootstrap/Container";
 
-import "./updates.css";
+import "./products.css";
 
-export default class updates extends Component {
+export default class Products extends Component {
 	componentDidMount() {
 		// this statement will scroll up to the top and
 		window.scrollTo(0, 0);
@@ -50,7 +50,7 @@ export default class updates extends Component {
 	render() {
 		return (
 			<div className="details">
-				<h5>Updates About New Merch will be seen here.</h5>
+				<h5>Products About New Merch will be seen here.</h5>
 				{/* https://codepen.io/ViktorKorolyuk/pen/GYGwpv */}
 				<div className="display">
 					<Container>

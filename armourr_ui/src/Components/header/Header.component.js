@@ -44,7 +44,7 @@ export default class Header extends Component {
 						<Link to="/about">About</Link>
 					</li>
 					<li>
-						<Link to="/updates">Updates</Link>
+						<Link to="/products">Products</Link>
 					</li>
 					<li>
 						<Link to="/contact">Contact</Link>
@@ -101,7 +101,7 @@ export default class Header extends Component {
 //         <Nav>
 //           <ul>
 //           <li>
-//             <Link to="/updates">Updates</Link>
+//             <Link to="/products">products</Link>
 //           </li>
 //           </ul>
 //         </Nav>

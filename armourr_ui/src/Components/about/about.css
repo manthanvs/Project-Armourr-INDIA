@@ -160,9 +160,9 @@
 }
 
 .layer {
-	width: 100%;
+	width: min(100%, 920px);
 	height: 0%;
-	background: linear-gradient(rgba(0, 0, 0, 0), #c3c3c379);
+	background: linear-gradient(rgba(0, 0, 0, 0) 10%, #c3c3c379 70%);
 	border-radius: 10px;
 	position: absolute;
 	left: 0;
@@ -187,7 +187,6 @@
 
 .layer a {
 	margin-top: 20px;
-	color: #ff0051bb;
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 60px;
@@ -206,12 +205,27 @@
 .work:hover img {
 	filter: blur(5px);
 	transform: scale(1.3);
+	animation: anim 3s infinite;
+	/* this will continuosly move the backward image up and down */
+}
+
+@keyframes anim {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-15px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
 }
 
 .work:hover .layer {
 	height: 100%;
 }
-
 /* written in router.css because .btn className's style is been used in footer component also */
 /* that's why this .btn className's style is written in the parent Component i.e. parent */
 /* .btn{
