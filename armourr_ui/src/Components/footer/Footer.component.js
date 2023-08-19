@@ -22,7 +22,7 @@ function footer() {
 							<div className="logo">
 											<img
 												src="images/Armourr_LogoFull.png"
-												alt="hexashop ecommerce templatemo"
+												alt="Armourr Logo"
 											/>
 										</div>
 							{/*Grid row*/}
