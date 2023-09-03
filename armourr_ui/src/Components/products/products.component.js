@@ -69,7 +69,7 @@ export default class Products extends Component {
 					</a> */}
 					</Container>
 				</div>
-				<Container className="cardview">
+				<div className="cardview">
 					<div className="temp_card" style={{ "--clr": "#009688" }}>
 						<div className="img-box">
 							<img
@@ -125,7 +125,7 @@ export default class Products extends Component {
 							<a href="/">Read More</a>
 						</div>
 					</div>
-				</Container>
+				</div>
 			</div>
 		);
 	}
