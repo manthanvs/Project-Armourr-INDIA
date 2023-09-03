@@ -20,6 +20,7 @@ export default class Header extends Component {
   }
   
   
+  
   componentDidMount() {
 		// scroll effect i.e when scroll down navbar get hidden and when scroll up navbar appears again
 		const nav = document.querySelector(".nav");
@@ -38,16 +39,16 @@ export default class Header extends Component {
 				<img src="images/apple-touch-icon.png" alt="logo" className="logo" />
 				<ul id="sidemenu">
 					<li>
-						<Link to="/">Home</Link>
+						<Link onClick={() => this.closeMenu()} to="/">Home</Link>
 					</li>
 					<li>
-						<Link to="/about">About</Link>
+						<Link onClick={() => this.closeMenu()} to="/about">About</Link>
 					</li>
 					<li>
-						<Link to="/products">Products</Link>
+						<Link onClick={() => this.closeMenu()} to="/products">Products</Link>
 					</li>
 					<li>
-						<Link to="/contact">Contact</Link>
+						<Link onClick={() => this.closeMenu()} to="/contact">Contact</Link>
 					</li>
         <CgClose className="iconhide" onClick={() => this.closeMenu()}/>
 				</ul>
